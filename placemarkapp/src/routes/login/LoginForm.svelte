@@ -11,6 +11,7 @@
   async function login() {
     const success = true;
     if (success) {
+      currentSession.set(email);
       goto("/dashboard");
     } else {
       email = "";
