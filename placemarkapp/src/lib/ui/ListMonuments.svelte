@@ -4,19 +4,22 @@
       name: "Quin Abbey",
       lat: "52.8191",
       lng: "8.8631",
-      category: "Abbey"
+      category: "Abbey",
+      location: "Clare"
     },
     {
       name: "Bunratty Castle",
       lat: "52.6996",
       lng: "8.8119",
-      category: "Castle"
+      category: "Castle",
+      location: "Clare"
     },
     {
-      name: "Dolmen",
-      lat: "53.0487",
-      lng: "9.1400",
-      category: "Megalithic"
+      name: "Waterford Cathedral",
+      lat: "52.2615",
+      lng: "7.1112",
+      category: "Cathedral",
+      location: "Waterford"
     }
   ];
 </script>

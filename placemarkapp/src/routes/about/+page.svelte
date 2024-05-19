@@ -3,7 +3,7 @@
   import About from "$lib/ui/About.svelte";
   import Card from "$lib/ui/Card.svelte";
 
-  subTitle.set("Add a Location");
+  subTitle.set("Welcome to Placemark");
 </script>
 
 <Card title="This is Placemark">
