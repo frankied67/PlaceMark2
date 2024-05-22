@@ -1,5 +1,5 @@
 <script lang="ts">
-  let location = [];
+  let location = "";
 
   async function addLocation() {
     console.log(`New Location: ${location} just added`);
