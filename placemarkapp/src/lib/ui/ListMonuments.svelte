@@ -1,25 +1,16 @@
 <script lang="ts">
-  export let monuments = [
+  const monuments = [
     {
       name: "Quin Abbey",
-      lat: "52.8191",
-      lng: "8.8631",
-      category: "Abbey",
-      location: "Clare"
+      lat: 52.8191,
+      lng: 8.8621,
+      category: "Abbey"
     },
     {
       name: "Bunratty Castle",
-      lat: "52.6996",
-      lng: "8.8119",
-      category: "Castle",
-      location: "Clare"
-    },
-    {
-      name: "Waterford Cathedral",
-      lat: "52.2615",
-      lng: "7.1112",
-      category: "Cathedral",
-      location: "Waterford"
+      lat: 52.6996,
+      lng: 8.8119,
+      category: "Castle"
     }
   ];
 </script>
