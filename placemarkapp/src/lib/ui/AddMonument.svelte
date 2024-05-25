@@ -3,6 +3,7 @@
   let latitude = 0;
   let longitude = 0;
   let category = "";
+  let county = "";
 
   async function addMonument() {
     console.log(`New Monument: ${monument} just added`);
@@ -25,6 +26,10 @@
   <div class="field">
     <label class="label" for="location">Category:</label>
     <input bind:value={category} class="input" id="category" name="category" type="text" />
+  </div>
+  <div class="field">
+    <label class="label" for="location">County:</label>
+    <input bind:value={county} class="input" id="category" name="category" type="text" />
   </div>
   <div class="field">
     <div class="control">
