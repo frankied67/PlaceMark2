@@ -4,13 +4,22 @@
       name: "Quin Abbey",
       lat: 52.8191,
       lng: 8.8621,
-      category: "Abbey"
+      category: "Abbey",
+      county: "Clare"
     },
     {
       name: "Bunratty Castle",
       lat: 52.6996,
       lng: 8.8119,
-      category: "Castle"
+      category: "Castle",
+      county: "Clare"
+    },
+    {
+      name: "Reginald's Tower",
+      lat: 52.2605,
+      lng: 7.1054,
+      category: "Tower",
+      county: "Waterford"
     }
   ];
 </script>
@@ -21,6 +30,7 @@
     <th>Latitude</th>
     <th>Longitude</th>
     <th>Category</th>
+    <th>County</th>
   </thead>
   <tbody>
     {#each monuments as monument}
@@ -35,6 +45,9 @@
         </td>
         <td>
           {monument.category}
+        </td>
+        <td>
+          {monument.county}
         </td>
       </tr>
     {/each}

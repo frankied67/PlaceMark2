@@ -1,5 +1,6 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
+  //import { locationService } from "$lib/services/location-service";
   import { currentSession } from "$lib/stores";
   import Message from "$lib/ui/Message.svelte";
   import UserCredentials from "$lib/ui/UserCredentials.svelte";
@@ -9,7 +10,9 @@
   let message = "";
 
   async function login() {
+    // console.log(`attempting to log in email: ${email} with password: ${password}`);
     const success = true;
+    // let session = await locationService.login(email, password);
     if (success) {
       currentSession.set(email);
       goto("/dashboard");
