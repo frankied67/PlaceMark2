@@ -15,7 +15,7 @@
         <a class="navbar-item" href="/dashboard">Dashboard</a>
         <a class="navbar-item" href="/monuments">Monuments</a>
         <a class="navbar-item" href="/about">About</a>
-        <a class="navbar-item" href="/logout">Logout [{$currentSession.name}]</a>
+        <a class="navbar-item" href="/logout">Logout [{$currentSession}]</a>
       </div>
     </div>
   </div>

@@ -27,7 +27,6 @@
     <th>Latitude</th>
     <th>Longitude</th>
     <th>Category</th>
-    <th>County</th>
   </thead>
   <tbody>
     {#each monuments as monument}

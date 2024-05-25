@@ -1,6 +1,5 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import { monumentService } from "$lib/services/monument-service";
   import { currentSession } from "$lib/stores";
   import Message from "$lib/ui/Message.svelte";
   import UserCredentials from "$lib/ui/UserCredentials.svelte";
@@ -10,10 +9,9 @@
   let message = "";
 
   async function login() {
-    console.log(`attempting to log in email: ${email} with password: ${password}`);
-    let session = await monumentService.login(email, password);
-    if (session) {
-      currentSession.set(session);
+    const success = true;
+    if (success) {
+      currentSession.set(email);
       goto("/dashboard");
     } else {
       email = "";

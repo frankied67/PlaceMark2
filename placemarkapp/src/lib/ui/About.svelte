@@ -1,4 +1,5 @@
-<script lang="ts"></script>
+<script lang="ts">
+</script>
 
 <section class="hero">
   <div class="hero-body has-text-centered">
