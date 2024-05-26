@@ -1,19 +1,19 @@
 <script lang="ts">
-  let location = "";
+  let monument = "";
 
-  async function addLocation() {
+  async function addMonument() {
     console.log(`New Location: ${location} just added`);
   }
 </script>
 
-<form on:submit|preventDefault={addLocation}>
+<form on:submit|preventDefault={addMonument}>
   <div class="field">
-    <label class="label" for="location">Add a Location:</label>
-    <input bind:value={location} class="input" id="location" name="location" type="text" />
+    <label class="label" for="location">Add a Monument:</label>
+    <input bind:value={monument} class="input" id="location" name="location" type="text" />
   </div>
   <div class="field">
     <div class="control">
-      <button class="button is-success">Add Location</button>
+      <button class="button is-success">Add Monument</button>
     </div>
   </div>
 </form>

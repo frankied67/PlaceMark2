@@ -1,15 +1,15 @@
 <script lang="ts">
   import { subTitle } from "$lib/stores";
   import DashboardForm from "./DashboardForm.svelte";
-  import ListLocations from "$lib/ui/ListLocations.svelte";
+  import ListMonuments from "$lib/ui/ListMonuments.svelte";
   import Card from "$lib/ui/Card.svelte";
 
-  subTitle.set("Add a Location");
+  subTitle.set("Add a Monument");
 </script>
 
-<Card title="Please add a location">
+<Card title="Please add a monument">
   <DashboardForm />
 </Card>
-<Card title="Locations">
-  <ListLocations />
+<Card title="Monument">
+  <ListMonuments />
 </Card>
